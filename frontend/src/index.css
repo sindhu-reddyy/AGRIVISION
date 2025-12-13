@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-forest-900 text-white overflow-x-hidden;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.font-magic {
+  font-family: 'Cinzel', serif;
+}

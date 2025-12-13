@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Model Artifacts (Too large for Git)
+*.pth
+*.ckpt
+*.bin
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Frontend (if duplicates exist in root)
+frontend/node_modules/
+frontend/dist/
