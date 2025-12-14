@@ -1,4 +1,8 @@
 # AgriVision 🌿
+Dataset link:
+https://huggingface.co/datasets/SyedNazmusSakib/PlantVillageVQA/tree/main
+Report link:
+https://drive.google.com/file/d/1SLrZgWSCadmc3iY06wYlB3Blz1GDy4qI/view?usp=sharing
 
 A sophisticated AI-powered plant disease diagnosis tool that combines the beauty of nature with the power of modern deep learning.
 
