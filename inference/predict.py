@@ -9,8 +9,12 @@ model = None
 tokenizer = None
 device = torch.device("cpu") # Default to CPU, can be changed
 processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
+def load_resources(
+    checkpoint_path="model/model_epoch_38.pth",
+    vocab_path="model/vocab.json"
+):
 
-def load_resources(checkpoint_path="model_epoch_38.pth", vocab_path="vocab.json"):
+#def load_resources(checkpoint_path="model_epoch_38.pth", vocab_path="vocab.json"):
     global model, tokenizer, device
     
     if not os.path.exists(vocab_path):
